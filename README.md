@@ -26,12 +26,6 @@
 <!-- Second image or setup photo -->
 ![Robot Overview](images/IMG_2139.jpeg)
 
-## What I Learned
-- How to reverse a motor in code because it was facing the wrong way
-- Using if/else logic to make sure the robot doesn't hit a wall while following a line
-- How to keep the arm from falling down using "hold" settings
-- Printing text to the Brain screen for easier testing
-
 ## Setup Instructions
 1. Connect motors: Left (Port 1), Right (Port 10), Arm (Port 8), Claw (Port 3).
 2. Connect sensors: Distance (Port 5), Line Tracker (3-Wire Port A).
