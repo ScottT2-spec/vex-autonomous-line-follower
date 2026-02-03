@@ -24,7 +24,7 @@
 2. The distance sensor constantly checks for objects in front.
 
 <!-- Second image or setup photo -->
-![Robot Overview](images/IMG_2130.png)
+![Robot Overview](images/IMG_png)
 
 ## What I Learned
 - How to reverse a motor in code because it was facing the wrong way
