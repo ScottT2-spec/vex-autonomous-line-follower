@@ -1,2 +1,28 @@
-# vex-autonomous-line-follower
-Autonomous VEX robot capable of line tracking, obstacle detection, and manual override using embedded sensor logic.
+VEX-Navigation-Robot
+A VEX V5 robot that can follow a black line on the floor, stop if it's about to hit something, and can also be driven manually with a controller.
+Features
+• Follows a black line automatically
+• Stops and backs up if it sees an obstacle
+• Manual drive mode for the arm and claw
+• Shows sensor data on the robot screen
+Hardware Used
+• VEX V5 Brain & Controller
+• 4 V5 Smart Motors (Drive, Arm, and Claw)
+• V5 Distance Sensor (Laser)
+• V5 Line Tracker (Underneath)
+• V5 Clawbot Metal Kit
+How It Works
+1. The line tracker looks at the floor. If it sees black, it goes straight. If it sees white, it turns to find the line.
+2. The distance sensor constantly checks for objects in front.
+3. If anything gets closer than 150mm, the robot stops, backs up, and turns away.
+4. The Brain screen shows the "Line" and "Dist" values so I can see what the sensors are doing.
+What I Learned
+• How to reverse a motor in code because it was facing the wrong way
+• Using if/else logic to make sure the robot doesn't hit a wall while following a line
+• How to keep the arm from falling down using hold settings
+• Printing text to the Brain screen for easier testing
+Setup Instructions
+1. Connect motors: Left (Port 1), Right (Port 10), Arm (Port 8), Claw (Port 3).
+2. Connect sensors: Distance (Port 5), Line Tracker (3-Wire Port A).
+3. Upload the C++ code using VEXcode V5.
+4. To drive it yourself, just swap the code from autonomousMode to usercontrol in the main file.
