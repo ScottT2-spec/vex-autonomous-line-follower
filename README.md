@@ -1,5 +1,8 @@
 # VEX-Navigation-Robot
 
+## Robot in Action
+![Robot following the line](images/image.png)
+
 A VEX V5 robot that can follow a black line on the floor, stop if it's about to hit something, and can also be driven manually with a controller.
 
 ## Features
@@ -13,13 +16,15 @@ A VEX V5 robot that can follow a black line on the floor, stop if it's about to 
 - 4 V5 Smart Motors (Drive, Arm, and Claw)
 - V5 Distance Sensor (Laser)
 - V5 Line Tracker (Underneath)
-- V5 Clawbot Metal Kit
+
+![Robot Setup and Lab](images/image_1.png)
 
 ## How It Works
 1. The line tracker looks at the floor. If it sees black, it goes straight. If it sees white, it turns to find the line.
 2. The distance sensor constantly checks for objects in front.
 3. If anything gets closer than 150mm, the robot stops, backs up, and turns away.
-4. The Brain screen shows the "Line" and "Dist" values so I can see what the sensors are doing.
+
+![View of the full track](images/image_2.png)
 
 ## What I Learned
 - How to reverse a motor in code because it was facing the wrong way
