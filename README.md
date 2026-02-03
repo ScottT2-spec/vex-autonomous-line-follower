@@ -10,7 +10,7 @@
 - Shows sensor data on the robot screen
 
 <!-- First image of the robot -->
-![Robot Photo](images/IMG_2141.png)
+![Robot Photo](images/IMG_2141.jpeg)
 
 ## Hardware Used
 - VEX V5 Brain & Controller
@@ -24,7 +24,7 @@
 2. The distance sensor constantly checks for objects in front.
 
 <!-- Second image or setup photo -->
-![Robot Overview](images/IMG_png)
+![Robot Overview](images/IMG_2139.jpeg)
 
 ## What I Learned
 - How to reverse a motor in code because it was facing the wrong way
