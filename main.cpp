@@ -28,7 +28,7 @@ void preSetup() {
 }
 
 
-// ------------ AUTONOMOUS (line + obstacle) ------------
+// AUTONOMOUS (line + obstacle)
 void autonomousMode() {
 
   while(true) {
@@ -81,7 +81,7 @@ void autonomousMode() {
 }
 
 
-// ------------ DRIVER CONTROL ------------
+// DRIVER CONTROL
 void usercontrol() {
 
   while(true) {
